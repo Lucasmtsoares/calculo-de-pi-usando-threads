@@ -1,0 +1,13 @@
+public class main{
+    public static void main(String[] args){
+        double pi = 0;
+    double i;
+    
+    for(i = 0; i < 10000000; i++){
+      pi += ((Math.pow(-1, i))/((2*i)+1));
+    }
+    pi *= 4;
+    
+    System.out.println(pi);
+        }
+    }
